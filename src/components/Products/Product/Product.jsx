@@ -2,6 +2,7 @@ import React from "react";
 
 const Product = () => {
   // Note: this id should come from api
+  
   const product = { id: 1 };
   return (
     <div data-cy={`product-${product.id}`}>
